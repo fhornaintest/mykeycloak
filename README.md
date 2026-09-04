@@ -18,6 +18,11 @@ Username should be `admin` and password `admin`.
 Import the [realm configuration file](config/quarkus-realm.json) to create a new realm.
 For more details, see the Keycloak documentation about how to [create a new realm](https://www.keycloak.org/docs/latest/server_admin/index.html#_create-realm).
 
+There is a option named "Manage realms" on the top left panel. 
+Click on it.
+Then click on the blue button labeled "Create realm"
+Finally import the quarkus-realm.json - [realm configuration file](config/quarkus-realm.json) - from you local drive.
+
 1. Visit the default endpoint: [http://127.0.0.1:8080](http://127.0.0.1:8080).
     - You should be redirected to the login page at Keycloak
 
