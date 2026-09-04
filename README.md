@@ -3,7 +3,7 @@
 ### Here is the procedure to deploy and run the demo :
 
 ```
-git clone
+git clone https://github.com/fhornaintest/mykeycloak.git
 podman login https://quay.io
 podman run --name keycloak -e KC_BOOTSTRAP_ADMIN_USERNAME=admin -e KC_BOOTSTRAP_ADMIN_PASSWORD=admin -p 8180:8080 quay.io/keycloak/keycloak:latest start-dev
 chmod 755 ./mykeycloak/mvnw
